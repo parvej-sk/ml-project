@@ -1,4 +1,4 @@
-import os
+            import os
 import sys
 from dataclasses import dataclass
 from urllib.parse import urlparse
@@ -119,7 +119,7 @@ class ModelTrainer:
 
             best_params = params[actual_model]
 
-            mlflow.set_registry_uri("https://dagshub.com/krishnaik06/mlprojecthindi.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/parvej-sk/ml-project.mlflow")
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
             # mlflow
