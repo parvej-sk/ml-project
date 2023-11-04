@@ -128,6 +128,14 @@ ENV/
 env.bak/
 venv.bak/
 
+
+logs
+build
+dist
+mlruns
+
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
